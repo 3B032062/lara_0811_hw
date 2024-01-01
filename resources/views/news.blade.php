@@ -30,6 +30,9 @@
                     @endauth
                 </div>
             @endif
+                <a href="{{route('home.index')}}">首頁</a>
+                <a href="{{route('about.index')}}">關於本站</a>
+                <a href="{{route('news.index')}}">最新消息</a>
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex justify-center">
@@ -136,5 +139,6 @@
                 </div>
             </div>
         </div>
+
     </body>
 </html>
